@@ -1,5 +1,7 @@
 import Header from '../components/Header';
 import Careers from '../components/Careers';
+import Services from '../components/Services';
+import Practices from '@/components/Practices';
 import Footer from '../components/Footer';
 import Image from 'next/image';
 
@@ -19,6 +21,8 @@ export default function Home() {
           />
         </div>
         <Careers />
+        <Services />
+        <Practices />
       </main>
       <Footer />
     </>

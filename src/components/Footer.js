@@ -9,46 +9,47 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-bold mb-4">Solutions</h3>
+            <h3 className="font-bold mb-4">COTEMAG - INICIO</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white">Marketing</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Analytics</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Automation</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Commerce</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Insights</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">Inicio</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">Novedades</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">Conócenos</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">Servicios</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">Administración</a></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-bold mb-4">Support</h3>
+            <h3 className="font-bold mb-4">Soporte Técnico</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white">Submit ticket</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Documentation</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Guides</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">PQR</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">Documentacion</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">Practicas Formativas</a></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-bold mb-4">Company</h3>
+            <h3 className="font-bold mb-4">Contacto</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white">About</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Blog</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Jobs</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Press</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">(+57) 3004813444</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">(+57) 605-4231290 / 605-4230603</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">direcciongeneral@cotemag.edu.co</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">Avenida Los Estudiantes #17 - 46</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">Santa Marta - Colombia</a></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-bold mb-4">Subscribe to our newsletter</h3>
-            <p className="text-gray-400 mb-4">The latest news, articles, and resources, sent to your inbox weekly.</p>
+            <h3 className="font-bold mb-4">Suscríbete a nuestro boletín</h3>
+            <p className="text-gray-400 mb-4">Las últimas noticias, artículos y recursos, enviados a tu bandeja de entrada semanalmente.</p>
             <div className="flex gap-2">
               <input
                 type="email"
-                placeholder="Enter your email"
+                placeholder="Ingresa tu correo electrónico"
                 className="bg-[#1E2434] text-white px-4 py-2 rounded-md flex-grow"
               />
               <button className="bg-[#6366F1] hover:bg-[#4F46E5] text-white px-4 py-2 rounded-md">
-                Subscribe
+                Suscribirse
               </button>
             </div>
           </div>
@@ -56,7 +57,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400">© {currentYear} Cotemag, Inc. All rights reserved.</p>
+            <p className="text-gray-400">© {currentYear} Cotemag, todo los derechos son reservados</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white">
                 <span className="sr-only">Facebook</span>
