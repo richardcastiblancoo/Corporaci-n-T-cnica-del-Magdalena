@@ -15,9 +15,9 @@ export const metadata = {
   title: "Corporación Técnica del Magdalena",
   description: "Nuestro objetivo es siempre ofrecer Programas de Formación para el Trabajo y el Desarrollo Humano, para crear oportunidades y mejoramiento de la calidad de vida de nuestros estudiantes y también un mayor crecimiento económico y social de la comunidad del Magdalena",
   icons: {
-    icon: '/images/cotemag.png',
-    shortcut: '/images/cotemag.png',
-    apple: '/images/cotemag.png',
+    icon: '/images/cotemag-1.webp',
+    shortcut: '/images/cotemag-1.webp',
+    apple: '/images/cotemag-1.webp',
     other: {
       rel: '/apple-touch-icon',
       url: '/apple-touch-icon.png',
